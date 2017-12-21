@@ -90,6 +90,14 @@ public class PPMBeanRequest {
         StartDate = startDate;
     }
 
+    public Date getEndDate() {
+        return EndDate;
+    }
+
+    public void setEndDate(Date endDate) {
+        EndDate = endDate;
+    }
+
     public PPMBeanRequest() {
     }
 
